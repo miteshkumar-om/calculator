@@ -1,0 +1,101 @@
+body {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-color: #f2ecec;
+    margin-top: 12%;
+}
+.main{
+    width: 5px;
+    font-size: 25px;
+    text-align: left;
+    display:block;
+
+}
+
+.calculator {
+    border: 10px solid #615f5f;
+    padding: 5%;
+    border-radius: 10px;
+    box-shadow:inset  0px 2px 2px  rgba(184, 108, 108, 0.952);
+    background-color: #c0b6b6;
+    width: 20%;
+
+}
+
+.calculator-screen {
+    width: 96%;
+    height: 50px;
+    background-color: #fff;
+    box-shadow: 0px 2px 10px rgb(211, 118, 118);
+    border-radius: 4px;
+    margin-bottom: 10px;
+    text-align: right;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 1.5em;
+    border: 5px solid #aea6a6;
+
+}
+
+.calculator-keys {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the buttons */
+    gap: 10px;
+}
+
+.calculator-keys button {
+    width: 25%;
+    height: 60px;
+    background-color: #3c3a3a;
+    box-shadow: 0px 4px 10px rgb(205, 119, 119);
+    border: 5px solid #595656;
+    margin: 2px;
+    font-size: 1.2em;
+    border-radius: 4px;
+    transition: background-color 0.8s;
+    display: inline-block;
+    color: #f2ecec;
+}
+
+.calculator-keys button.operator {
+    background-color: #ff9f43;
+    border: 5px solid #dca172;
+}
+
+.calculator-keys button.all-clear {
+    background-color: #ff6b6b;
+    color: rgb(76, 43, 124);
+    border: 5px solid #d89090
+}
+
+.calculator-keys button.equal-sign {
+    background-color: #6bff6b;
+    border: 5px solid #709863
+}
+
+.on-off-button {
+    background-color: #d3d3d3;
+    color: #000;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.on-off-button:hover {
+    background-color: #c0c0c0;
+}
+
+.calculator-off .calculator-keys button {
+    background-color: #a9a9a9;
+    pointer-events: none; /* Disable button interaction */
+}
+
+.calculator-off .calculator-screen {
+    background-color: #a9a9a9;
+}
