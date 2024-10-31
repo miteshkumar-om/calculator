@@ -19,7 +19,7 @@ body {
     padding: 5%;
     border-radius: 10px;
     box-shadow:inset  0px 2px 2px  rgba(184, 108, 108, 0.952);
-    background-color: #c0b6b6;
+    background-color: #2f4258;
     width: 20%;
 
 }
@@ -61,7 +61,7 @@ body {
 }
 
 .calculator-keys button.operator {
-    background-color: #ff9f43;
+    background-color: #e75524;
     border: 5px solid #dca172;
 }
 
